@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PathPickr Quiz</title>
+  <link rel="stylesheet" href="style2.css" />
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="quiz-header">
+      <h2><i data-feather="zap"></i> PathPickr Quiz</h2>
+      <div id="progress">Question 1 of 3</div>
+    </div>
+
+    <div class="question-box" id="questionBox">
+      <!-- Question and options go here dynamically -->
+    </div>
+
+    <button id="nextBtn" class="next-btn">Next</button>
+  </div>
+
+  <script src="quiz.js"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
