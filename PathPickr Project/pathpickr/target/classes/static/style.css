@@ -1,0 +1,147 @@
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  background:  #bfdbfe; /* Stronger blue at the top */
+  color: #1f2937;
+  line-height: 1.6;
+  min-height: 100%;
+}
+
+/* Hero section */
+.hero {
+  height: 100vh;
+  background: transparent; /* Let the blue gradient show */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.logo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #1e3a8a; /* Darker blue text */
+}
+
+.start-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #2563eb;
+}
+
+/* Main sections */
+main {
+  width: 100%;
+}
+
+/* About section */
+.about {
+  background: #ffffff;
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-icon {
+  width: 100px;
+}
+
+.about h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #4b5563;
+}
+
+/* How It Works section */
+.how-it-works {
+  background: #bfdbfe;
+  padding: 80px 20px;
+}
+
+.how-it-works h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  color: #1e3a8a;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.step {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.step img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.step h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.step p {
+  color: #4b5563;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #f8fafc;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
